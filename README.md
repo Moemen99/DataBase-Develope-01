@@ -117,3 +117,77 @@ After connecting to the server:
 ---
 
 **Note**: This document outlines the general process of database development, from design to implementation, with a focus on SQL Server. Always refer to official Microsoft documentation for the most up-to-date information on SQL Server installation and management.
+
+
+# SQL Basics: An Introduction
+
+## What is SQL?
+
+SQL (Structured Query Language) is a specialized language used to communicate with and manipulate databases. It is not a programming language in the traditional sense, but rather a query language designed specifically for managing and querying relational database management systems.
+
+## Key Features of SQL
+
+With SQL, you can:
+- Create databases
+- Create tables
+- Delete tables
+- Insert data
+- Delete data
+- Update data
+- Query data
+
+## Writing SQL Code
+
+To write SQL code in most database management systems:
+
+1. Look for a tab or option named "New Query"
+2. This will open a new file where you can start writing SQL code
+3. To save your SQL file:
+   - Press `Ctrl + S`
+   - Choose a location on your device to save the file
+
+## SQL Comments
+
+Comments in SQL are used to document code. They are not executed as part of the query. SQL supports two types of comments:
+
+### 1. Single-line Comments
+
+- Use double dashes `--` at the start of the line
+- Example:
+  ```sql
+  -- This is a single-line comment
+  SELECT * FROM Customers;
+  ```
+
+### 2. Multi-line Comments
+
+- Start with `/*` and end with `*/`
+- Can span multiple lines
+- Example:
+  ```sql
+  /* This is a 
+     multi-line comment */
+  SELECT * FROM Orders;
+  ```
+
+### Comment Formatting
+
+- Comments are typically displayed in green color in most SQL editors
+
+### Keyboard Shortcuts for Comments
+
+In many SQL editors (like SQL Server Management Studio), you can use these shortcuts:
+
+- To comment out code: `Ctrl + K`, then `Ctrl + C`
+- To uncomment code: `Ctrl + K`, then `Ctrl + U`
+
+## Next Steps
+
+- Learn basic SQL commands (SELECT, INSERT, UPDATE, DELETE)
+- Understand database structure and table relationships
+- Practice writing and executing SQL queries
+- Explore more advanced SQL features like joins, subqueries, and stored procedures
+
+---
+
+**Note**: This document provides a basic introduction to SQL. As you progress, refer to official documentation for your specific database management system for more detailed information and best practices.
